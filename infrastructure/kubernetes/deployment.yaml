@@ -1,0 +1,85 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lead-sniper
+  labels:
+    app: lead-sniper
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: lead-sniper
+  template:
+    metadata:
+      labels:
+        app: lead-sniper
+    spec:
+      containers:
+      - name: lead-sniper-pipeline
+        image: gcr.io/lead-sniper-project/lead-sniper-pipeline:latest
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            cpu: "500m"
+            memory: "512Mi"
+          limits:
+            cpu: "1"
+            memory: "1Gi"
+        envFrom:
+        - configMapRef:
+            name: lead-sniper-config
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lead-sniper-service
+spec:
+  selector:
+    app: lead-sniper
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lead-sniper-config
+data:
+  MANUS_CORE_API_ENDPOINT: "http://manus-core.internal:8080"
+  VISION_CORTEX_API_ENDPOINT: "http://vision-cortex.internal:8080"
+  VERTEX_AI_PROJECT_ID: "lead-sniper-project"
+  VERTEX_AI_LOCATION: "us-central1"
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: lead-sniper-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: lead-sniper
+  minReplicas: 3
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 80

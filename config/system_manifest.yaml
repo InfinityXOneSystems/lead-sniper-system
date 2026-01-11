@@ -1,0 +1,143 @@
+# Lead Sniper System Manifest
+# 110% Protocol | FAANG Enterprise-Grade | Zero Human Hands
+
+system:
+  name: lead-sniper
+  version: "1.0.0"
+  mode: autonomous
+  environment: production
+  protocol_level: 1.10  # 110% protocol
+
+autonomy:
+  enabled: true
+  auto_start: true
+  auto_heal: true
+  auto_fix: true
+  auto_optimize: true
+  auto_evolve: true
+  zero_human_hands: true
+
+manus_core:
+  max_parallel_instances: 1000
+  worker_pool_size: 100
+  health_check_interval_seconds: 5
+  auto_heal_interval_seconds: 10
+
+vision_cortex:
+  enabled: true
+  perspectives:
+    - financial_distress
+    - market_opportunity
+    - timing_urgency
+    - verification_confidence
+    - roi_potential
+
+vertex_ai:
+  enabled: true
+  project_id: infinity-x-one-systems
+  region: us-central1
+  model: gemini-2.5-flash
+  automl_enabled: true
+  bigquery_enabled: true
+  firestore_enabled: true
+
+scrapers:
+  max_instances: 100
+  headless: true
+  stealth_mode: true
+  timeout_seconds: 30
+  retry_attempts: 3
+  rate_limit_ms: 1000
+  user_agent_rotation: true
+  screenshot_on_error: true
+
+pipeline:
+  batch_size: 100
+  max_parallel_analysis: 50
+  triple_check_validation: true
+  min_confidence_threshold: 0.7
+
+sync:
+  local_primary: true
+  cloud_fallback: true
+  smart_routing: true
+  sync_interval_seconds: 60
+  direction: bidirectional
+
+schedule:
+  enabled: true
+  time: "05:00"
+  timezone: America/New_York
+  daily: true
+
+storage:
+  local_path: /home/ubuntu/lead-sniper/results
+  cloud_bucket: gs://ix1-lead-sniper
+  bigquery_dataset: lead_sniper
+  firestore_collection: leads
+
+targets:
+  regions:
+    - name: Treasure Coast
+      counties:
+        - St. Lucie
+        - Martin
+        - Indian River
+      zip_codes:
+        - "34945"
+        - "34946"
+        - "34947"
+        - "34948"
+        - "34949"
+        - "34950"
+        - "34951"
+        - "34952"
+        - "34953"
+        - "34984"
+        - "34986"
+        - "34987"
+        - "34994"
+        - "34996"
+        - "34997"
+        - "32960"
+        - "32962"
+        - "32963"
+        - "32966"
+        - "32967"
+        - "32968"
+
+  property_types:
+    - foreclosure
+    - tax_lien
+    - bank_owned
+    - short_sale
+    - probate
+    - code_violation
+    - auction
+
+  data_sources:
+    - County Records
+    - Tax Assessor
+    - Court Records
+    - Auction.com
+    - Zillow
+    - Redfin
+    - HUD
+    - Social Media
+
+governance:
+  enabled: true
+  relaxed_guardrails: true
+  emergency_stop: true
+  audit_logging: true
+
+observability:
+  metrics: true
+  logs: true
+  tracing: true
+  alerts: true
+
+resources:
+  max_jobs_per_hour: 1000
+  max_memory_gb: 16
+  max_cpu_cores: 8

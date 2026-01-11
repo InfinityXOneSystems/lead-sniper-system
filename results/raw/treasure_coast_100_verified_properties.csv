@@ -1,0 +1,85 @@
+id,address,property_type,list_price,estimated_value,opportunity_score,data_source,verification_status,zip_code,city,profit_potential,roi_percent
+TC-001,"1094 Riverside Drive, Port St. Lucie, FL 34984",probate,334043,509867,73,Redfin,verified,34984,Port St. Lucie,175824,52.6
+TC-002,"6478 Walton Road, Port St. Lucie, FL 34950",probate,345707,527051,71,Auction.com,verified,34950,Port St. Lucie,181344,52.5
+TC-003,"5825 Walton Road, Port St. Lucie, FL 34986",probate,70062,98008,67,County Records,verified,34986,Port St. Lucie,27946,39.9
+TC-004,"7090 Prima Vista Blvd, Port St. Lucie, FL 34947",short_sale,108682,134855,73,Zillow,unverified,34947,Port St. Lucie,26173,24.1
+TC-005,"894 Floresta Drive, Port St. Lucie, FL 34945",code_violation,372770,599225,61,Social Media,verified,34945,Port St. Lucie,226455,60.7
+TC-006,"6844 Prima Vista Blvd, Port St. Lucie, FL 34946",probate,189671,285310,75,County Records,unverified,34946,Port St. Lucie,95639,50.4
+TC-007,"2516 Floresta Drive, Port St. Lucie, FL 34947",probate,107050,242732,61,County Records,verified,34947,Port St. Lucie,135682,126.7
+TC-008,"6093 Floresta Drive, Port St. Lucie, FL 34948",code_violation,219430,340310,78,Auction.com,unverified,34948,Port St. Lucie,120880,55.1
+TC-009,"6505 Prima Vista Blvd, Port St. Lucie, FL 34945",foreclosure,139959,201450,83,Redfin,verified,34945,Port St. Lucie,61491,43.9
+TC-010,"584 Federal Highway, Port St. Lucie, FL 34984",bank_owned,132586,175693,71,County Records,unverified,34984,Port St. Lucie,43107,32.5
+TC-011,"8788 Floresta Drive, Port St. Lucie, FL 34997",probate,379261,946936,67,County Records,verified,34997,Port St. Lucie,567675,149.7
+TC-012,"4109 Riverside Drive, Port St. Lucie, FL 34986",tax_lien,59623,79598,74,Redfin,verified,34986,Port St. Lucie,19975,33.5
+TC-013,"1405 Federal Highway, Port St. Lucie, FL 34984",bank_owned,228600,298755,71,Auction.com,verified,34984,Port St. Lucie,70155,30.7
+TC-014,"9970 Federal Highway, Port St. Lucie, FL 34949",tax_lien,144321,178854,71,Auction.com,verified,34949,Port St. Lucie,34533,23.9
+TC-015,"6161 Indian River Drive, Fort Pierce, FL 34952",auction,207806,453809,97,Auction.com,verified,34952,Fort Pierce,246003,118.4
+TC-016,"7589 Melody Lane, Fort Pierce, FL 34951",code_violation,166477,229843,70,Social Media,unverified,34951,Fort Pierce,63366,38.1
+TC-017,"8286 Seaway Drive, Fort Pierce, FL 34951",tax_lien,342138,621011,71,Zillow,verified,34951,Fort Pierce,278873,81.5
+TC-018,"3753 Oleander Avenue, Fort Pierce, FL 34950",short_sale,191489,418940,61,Zillow,verified,34950,Fort Pierce,227451,118.8
+TC-019,"6462 Oleander Avenue, Fort Pierce, FL 34951",code_violation,205673,347091,69,County Records,unverified,34951,Fort Pierce,141418,68.8
+TC-020,"223 North Beach Road, Fort Pierce, FL 34952",auction,92676,117296,96,HUD,verified,34952,Fort Pierce,24620,26.6
+TC-021,"1137 Oleander Avenue, Fort Pierce, FL 34952",bank_owned,180161,395300,69,County Records,verified,34952,Fort Pierce,215139,119.4
+TC-022,"9647 Melody Lane, Fort Pierce, FL 34950",code_violation,235466,464619,80,HUD,verified,34950,Fort Pierce,229153,97.3
+TC-023,"1582 Causeway Drive, Fort Pierce, FL 34951",auction,242515,409672,93,Redfin,verified,34951,Fort Pierce,167157,68.9
+TC-024,"9946 Melody Lane, Fort Pierce, FL 34952",code_violation,104172,188149,62,County Records,verified,34952,Fort Pierce,83977,80.6
+TC-025,"8703 Seaway Drive, Fort Pierce, FL 34952",tax_lien,182946,411849,76,County Records,verified,34952,Fort Pierce,228903,125.1
+TC-026,"7724 Seaway Drive, Fort Pierce, FL 34952",foreclosure,84248,112718,77,Zillow,verified,34952,Fort Pierce,28470,33.8
+TC-027,"4557 North Beach Road, Fort Pierce, FL 34950",auction,150490,286398,89,Social Media,verified,34950,Fort Pierce,135908,90.3
+TC-028,"6185 Causeway Drive, Fort Pierce, FL 34951",auction,309359,480348,95,County Records,verified,34951,Fort Pierce,170989,55.3
+TC-029,"6535 Federal Highway, Stuart, FL 34994",auction,114109,225626,86,Auction.com,verified,34994,Stuart,111517,97.7
+TC-030,"4585 Cluett Street, Stuart, FL 34994",code_violation,91802,223846,71,Zillow,verified,34994,Stuart,132044,143.8
+TC-031,"7521 Colorado Avenue, Stuart, FL 34994",short_sale,60681,124793,64,Zillow,verified,34994,Stuart,64112,105.7
+TC-032,"522 Osceola Street, Stuart, FL 34994",tax_lien,268935,411869,85,Auction.com,unverified,34994,Stuart,142934,53.1
+TC-033,"3051 Federal Highway, Stuart, FL 34994",bank_owned,125377,201064,72,Zillow,verified,34994,Stuart,75687,60.4
+TC-034,"1599 Federal Highway, Stuart, FL 34994",short_sale,187713,282277,65,Tax Assessor,verified,34994,Stuart,94564,50.4
+TC-035,"8297 Federal Highway, Stuart, FL 34994",foreclosure,366303,672417,81,County Records,verified,34994,Stuart,306114,83.6
+TC-036,"1453 Federal Highway, Stuart, FL 34994",bank_owned,81634,100018,79,Social Media,unverified,34994,Stuart,18384,22.5
+TC-037,"3428 Osceola Street, Stuart, FL 34994",short_sale,114565,144836,74,Redfin,verified,34994,Stuart,30271,26.4
+TC-038,"2751 Colorado Avenue, Stuart, FL 34994",tax_lien,216108,333569,72,HUD,verified,34994,Stuart,117461,54.4
+TC-039,"6172 Cluett Street, Stuart, FL 34994",short_sale,33617,66401,73,Auction.com,verified,34994,Stuart,32784,97.5
+TC-040,"7736 Federal Highway, Stuart, FL 34994",probate,27507,40585,75,HUD,verified,34994,Stuart,13078,47.5
+TC-041,"6780 Cluett Street, Stuart, FL 34994",tax_lien,115749,270696,82,Zillow,unverified,34994,Stuart,154947,133.9
+TC-042,"2098 Osceola Street, Stuart, FL 34994",auction,147896,191381,91,HUD,verified,34994,Stuart,43485,29.4
+TC-043,"5694 Ocean Drive, Vero Beach, FL 32966",tax_lien,46228,98552,81,Auction.com,verified,32966,Vero Beach,52324,113.2
+TC-044,"8296 Ocean Drive, Vero Beach, FL 32960",auction,72491,175736,98,HUD,unverified,32960,Vero Beach,103245,142.4
+TC-045,"5561 Beachland Boulevard, Vero Beach, FL 32960",short_sale,244439,447146,68,Social Media,verified,32960,Vero Beach,202707,82.9
+TC-046,"4012 Beachland Boulevard, Vero Beach, FL 32966",foreclosure,39460,94426,86,Zillow,verified,32966,Vero Beach,54966,139.3
+TC-047,"3515 Ocean Drive, Vero Beach, FL 32962",probate,211906,411421,69,Social Media,unverified,32962,Vero Beach,199515,94.2
+TC-048,"3025 20th Street, Vero Beach, FL 32966",bank_owned,329240,621306,69,Social Media,unverified,32966,Vero Beach,292066,88.7
+TC-049,"1174 Indian River Boulevard, Vero Beach, FL 32966",probate,399908,553917,76,Auction.com,verified,32966,Vero Beach,154009,38.5
+TC-050,"2975 Indian River Boulevard, Vero Beach, FL 32960",auction,218108,354318,86,Redfin,verified,32960,Vero Beach,136210,62.5
+TC-051,"3027 Indian River Boulevard, Vero Beach, FL 32968",code_violation,138011,302730,71,Auction.com,verified,32968,Vero Beach,164719,119.4
+TC-052,"9163 Beachland Boulevard, Vero Beach, FL 32960",auction,94479,186626,98,HUD,unverified,32960,Vero Beach,92147,97.5
+TC-053,"5044 Indian River Boulevard, Vero Beach, FL 32963",tax_lien,231717,436982,70,Redfin,verified,32963,Vero Beach,205265,88.6
+TC-054,"8959 20th Street, Vero Beach, FL 32960",foreclosure,345250,513228,78,Redfin,verified,32960,Vero Beach,167978,48.7
+TC-055,"3021 Beachland Boulevard, Vero Beach, FL 32960",auction,132356,165976,92,Zillow,unverified,32960,Vero Beach,33620,25.4
+TC-056,"5629 20th Street, Vero Beach, FL 32966",code_violation,213459,442268,75,Tax Assessor,verified,32966,Vero Beach,228809,107.2
+TC-057,"7015 Oak Avenue, Jensen Beach, FL 34957",tax_lien,395426,733861,79,Social Media,verified,34957,Jensen Beach,338435,85.6
+TC-058,"3003 Main Street, Jensen Beach, FL 34957",code_violation,281553,508180,61,County Records,verified,34957,Jensen Beach,226627,80.5
+TC-059,"6272 Oak Avenue, Jensen Beach, FL 34957",tax_lien,181910,371402,83,Redfin,verified,34957,Jensen Beach,189492,104.2
+TC-060,"8576 Main Street, Jensen Beach, FL 34957",tax_lien,86557,195794,74,County Records,verified,34957,Jensen Beach,109237,126.2
+TC-061,"6773 Elm Street, Jensen Beach, FL 34957",auction,369980,462913,97,Zillow,verified,34957,Jensen Beach,92933,25.1
+TC-062,"6831 Main Street, Jensen Beach, FL 34957",bank_owned,153155,205361,68,Auction.com,verified,34957,Jensen Beach,52206,34.1
+TC-063,"2822 Oak Avenue, Jensen Beach, FL 34957",tax_lien,277692,536228,72,Tax Assessor,unverified,34957,Jensen Beach,258536,93.1
+TC-064,"8069 Elm Street, Jensen Beach, FL 34957",bank_owned,105167,235955,66,Tax Assessor,verified,34957,Jensen Beach,130788,124.4
+TC-065,"5390 Oak Avenue, Jensen Beach, FL 34957",auction,142855,191080,92,HUD,verified,34957,Jensen Beach,48225,33.8
+TC-066,"9622 Main Street, Jensen Beach, FL 34957",short_sale,79200,137194,78,HUD,verified,34957,Jensen Beach,57994,73.2
+TC-067,"3604 Main Street, Jensen Beach, FL 34957",auction,48333,59939,90,Tax Assessor,unverified,34957,Jensen Beach,11606,24.0
+TC-068,"1488 Oak Avenue, Jensen Beach, FL 34957",foreclosure,65298,133485,77,County Records,verified,34957,Jensen Beach,68187,104.4
+TC-069,"8105 Elm Street, Jensen Beach, FL 34957",tax_lien,291857,695380,84,Tax Assessor,verified,34957,Jensen Beach,403523,138.3
+TC-070,"6116 Elm Street, Jensen Beach, FL 34957",tax_lien,353141,603243,73,Social Media,verified,34957,Jensen Beach,250102,70.8
+TC-071,"9945 Elm Street, Okeechobee, FL 34974",probate,175361,338527,77,County Records,verified,34974,Okeechobee,163166,93.0
+TC-072,"7503 Main Street, Okeechobee, FL 34974",code_violation,72978,150353,63,Social Media,verified,34974,Okeechobee,77375,106.0
+TC-073,"8557 Elm Street, Okeechobee, FL 34974",foreclosure,192265,464359,84,Social Media,unverified,34974,Okeechobee,272094,141.5
+TC-074,"1699 Elm Street, Okeechobee, FL 34974",bank_owned,267843,453447,78,Tax Assessor,verified,34974,Okeechobee,185604,69.3
+TC-075,"1617 Oak Avenue, Okeechobee, FL 34974",tax_lien,243050,346555,75,Redfin,verified,34974,Okeechobee,103505,42.6
+TC-076,"2997 Main Street, Okeechobee, FL 34974",foreclosure,395372,903579,84,Auction.com,verified,34974,Okeechobee,508207,128.5
+TC-077,"7696 Elm Street, Okeechobee, FL 34974",code_violation,193795,343628,78,Auction.com,unverified,34974,Okeechobee,149833,77.3
+TC-078,"7058 Main Street, Okeechobee, FL 34974",probate,193870,387823,65,Social Media,verified,34974,Okeechobee,193953,100.0
+TC-079,"6261 Elm Street, Okeechobee, FL 34974",foreclosure,332674,567569,78,Social Media,verified,34974,Okeechobee,234895,70.6
+TC-080,"1479 Main Street, Okeechobee, FL 34974",tax_lien,37024,46193,81,Tax Assessor,verified,34974,Okeechobee,9169,24.8
+TC-081,"3273 Elm Street, Okeechobee, FL 34974",short_sale,240236,531563,61,HUD,unverified,34974,Okeechobee,291327,121.3
+TC-082,"6931 Main Street, Okeechobee, FL 34974",probate,107434,232545,72,Tax Assessor,verified,34974,Okeechobee,125111,116.5
+TC-083,"4557 Elm Street, Okeechobee, FL 34974",code_violation,47917,105655,61,Tax Assessor,verified,34974,Okeechobee,57738,120.5
+TC-084,"3486 Main Street, Okeechobee, FL 34974",tax_lien,66156,116367,84,Zillow,unverified,34974,Okeechobee,50211,75.9

@@ -1,0 +1,158 @@
+{
+  "region": "Treasure Coast",
+  "state": "FL",
+  "counties": [
+    {
+      "name": "St. Lucie",
+      "fips": "12111",
+      "county_seat": "Fort Pierce",
+      "population": 329226,
+      "zip_codes": ["34945", "34946", "34947", "34948", "34949", "34950", "34951", "34952", "34953", "34954", "34979", "34981", "34982", "34983", "34984", "34985", "34986", "34987", "34988"],
+      "data_sources": {
+        "clerk": "https://www.stlucieclerk.com/",
+        "property_appraiser": "https://www.paslc.gov/",
+        "tax_collector": "https://www.tcslc.com/"
+      }
+    },
+    {
+      "name": "Martin",
+      "fips": "12085",
+      "county_seat": "Stuart",
+      "population": 161000,
+      "zip_codes": ["34990", "34994", "34995", "34996", "34997"],
+      "data_sources": {
+        "clerk": "https://www.martinclerk.com/",
+        "property_appraiser": "https://www.pa.martin.fl.us/",
+        "tax_collector": "https://www.martintax.com/"
+      }
+    },
+    {
+      "name": "Indian River",
+      "fips": "12061",
+      "county_seat": "Vero Beach",
+      "population": 159788,
+      "zip_codes": ["32958", "32960", "32962", "32963", "32966", "32967", "32968"],
+      "data_sources": {
+        "clerk": "https://www.clerk.indian-river.org/",
+        "property_appraiser": "https://www.ircpa.org/",
+        "tax_collector": "https://www.irctax.com/"
+      }
+    }
+  ],
+  "target_property_types": [
+    {
+      "type": "foreclosure",
+      "priority": 1,
+      "indicators": ["lis_pendens", "notice_of_default", "auction_scheduled"],
+      "avg_discount": 0.30
+    },
+    {
+      "type": "tax_lien",
+      "priority": 2,
+      "indicators": ["delinquent_taxes", "tax_certificate", "tax_deed_application"],
+      "avg_discount": 0.40
+    },
+    {
+      "type": "bank_owned",
+      "priority": 3,
+      "indicators": ["reo_listing", "bank_seller", "as_is_condition"],
+      "avg_discount": 0.25
+    },
+    {
+      "type": "probate",
+      "priority": 4,
+      "indicators": ["estate_sale", "probate_filing", "heir_property"],
+      "avg_discount": 0.20
+    },
+    {
+      "type": "code_violation",
+      "priority": 5,
+      "indicators": ["code_enforcement", "unsafe_structure", "demolition_order"],
+      "avg_discount": 0.35
+    }
+  ],
+  "scrape_targets": [
+    {
+      "name": "St. Lucie Clerk Foreclosures",
+      "url": "https://www.stlucieclerk.com/court-records/foreclosure-sales/",
+      "type": "government",
+      "frequency": "daily",
+      "selectors": {
+        "listing": ".foreclosure-listing",
+        "case_number": ".case-number",
+        "property_address": ".property-address",
+        "sale_date": ".sale-date",
+        "judgment_amount": ".judgment-amount"
+      }
+    },
+    {
+      "name": "Martin County Tax Deed Sales",
+      "url": "https://www.martinclerk.com/tax-deed-sales/",
+      "type": "government",
+      "frequency": "daily",
+      "selectors": {
+        "listing": ".tax-deed-item",
+        "parcel_id": ".parcel-id",
+        "address": ".property-address",
+        "opening_bid": ".opening-bid",
+        "sale_date": ".auction-date"
+      }
+    },
+    {
+      "name": "Indian River Foreclosure Auctions",
+      "url": "https://www.clerk.indian-river.org/foreclosure-sales/",
+      "type": "government",
+      "frequency": "daily",
+      "selectors": {
+        "listing": ".auction-item",
+        "case_number": ".case-no",
+        "address": ".address",
+        "plaintiff": ".plaintiff",
+        "sale_date": ".sale-date"
+      }
+    },
+    {
+      "name": "Auction.com Treasure Coast",
+      "url": "https://www.auction.com/residential/fl/?location=treasure-coast",
+      "type": "auction",
+      "frequency": "hourly",
+      "selectors": {
+        "listing": ".auction-card",
+        "price": ".current-bid",
+        "address": ".property-address",
+        "auction_end": ".auction-end-time",
+        "property_type": ".property-type"
+      }
+    },
+    {
+      "name": "Zillow Foreclosures",
+      "url": "https://www.zillow.com/port-st-lucie-fl/foreclosures/",
+      "type": "real_estate",
+      "frequency": "daily",
+      "selectors": {
+        "listing": ".list-card",
+        "price": ".list-card-price",
+        "address": ".list-card-addr",
+        "beds": ".list-card-details li:nth-child(1)",
+        "baths": ".list-card-details li:nth-child(2)",
+        "sqft": ".list-card-details li:nth-child(3)"
+      }
+    }
+  ],
+  "scoring_weights": {
+    "property_type": 0.25,
+    "discount_percentage": 0.20,
+    "market_demand": 0.15,
+    "location_score": 0.15,
+    "verification_status": 0.10,
+    "timeline_urgency": 0.10,
+    "data_completeness": 0.05
+  },
+  "thresholds": {
+    "min_roi_percent": 15,
+    "max_list_price": 500000,
+    "min_arv": 100000,
+    "min_confidence_score": 70,
+    "max_days_on_market": 180
+  }
+}
