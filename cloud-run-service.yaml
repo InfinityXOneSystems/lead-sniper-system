@@ -1,0 +1,46 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: lead-sniper
+  labels:
+    cloud.googleapis.com/location: us-central1
+  annotations:
+    run.googleapis.com/ingress: all
+    run.googleapis.com/launch-stage: BETA
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/maxScale: '10'
+        autoscaling.knative.dev/minScale: '0'
+        run.googleapis.com/execution-environment: gen2
+        run.googleapis.com/startup-cpu-boost: 'true'
+    spec:
+      containerConcurrency: 1
+      timeoutSeconds: 3600
+      serviceAccountName: infinity-x-one-systems@appspot.gserviceaccount.com
+      containers:
+      - image: gcr.io/infinity-x-one-systems/lead-sniper:latest
+        ports:
+        - name: http1
+          containerPort: 8080
+        env:
+        - name: PROJECT_ID
+          value: infinity-x-one-systems
+        - name: GEMINI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: gemini-api-key
+              key: latest
+        - name: GCP_SA_KEY
+          valueFrom:
+            secretKeyRef:
+              name: gcp-sa-key
+              key: latest
+        resources:
+          limits:
+            cpu: '2'
+            memory: 4Gi
+  traffic:
+  - percent: 100
+    latestRevision: true
