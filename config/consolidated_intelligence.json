@@ -1,0 +1,2311 @@
+{
+  "metadata": {
+    "generated": "2026-01-11",
+    "source_files": [
+      "/home/ubuntu/lead-sniper-data-integration/extracted/SeedKeywords/urls_seed_100.txt",
+      "/home/ubuntu/lead-sniper-data-integration/extracted/SeedKeywords/keywords_seed_100.csv",
+      "/home/ubuntu/lead-sniper-data-integration/DistressedPropertySources.xlsx",
+      "/home/ubuntu/lead-sniper-data-integration/Distressed_Property_Crawl_Seed.xlsx",
+      "/home/ubuntu/lead-sniper-data-integration/Indicatorsinforms.xlsx",
+      "/home/ubuntu/lead-sniper-data-integration/cheatsheets.xlsx"
+    ],
+    "total_urls": 100,
+    "total_keywords": 322,
+    "total_sources": 222
+  },
+  "seed_urls": [
+    {
+      "url": "https://data.sba.gov/",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://data.sba.gov/en/dataset",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://catalog.data.gov/organization/u-s-small-business-administration",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://api.census.gov/data.html",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://www.census.gov/data/developers/data-sets.html",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://api.census.gov/data/timeseries/eits/bfs.html",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cbp/data.html",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/abs/data.html",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/susb/data.html",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://www.sba.gov/about-sba/sba-performance/open-government/digital-sba/open-data",
+      "category": "Federal SMB & Business Data (APIs / catalogs)"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://api.stlouisfed.org/",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/docs/api/fred/",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://www.bea.gov/data",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://apps.bea.gov/api/",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://www.bls.gov/",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://www.bls.gov/developers/",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview?data=yield",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://www.federalreserve.gov/releases/",
+      "category": "Macro & Rates Data (economy / credit cycle)"
+    },
+    {
+      "url": "https://sam.gov/",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://open.gsa.gov/api/sam/",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://api.sam.gov/",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://www.usaspending.gov/",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://api.usaspending.gov/",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://api.usaspending.gov/docs/endpoints",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://www.fpds.gov/",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://www.federalregister.gov/developers/api/v1",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://www.sbir.gov/",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://www.grants.gov/",
+      "category": "Federal Procurement / Awards (contract triggers)"
+    },
+    {
+      "url": "https://bizfileonline.sos.ca.gov/search/business",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://direct.sos.state.tx.us/acct/acct-login.asp",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "http://search.sunbiz.org/Inquiry/CorporationSearch/ByName",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://dos.ny.gov/corporation-business-entity-search",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://apps.ilsos.gov/corporatellc/",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://file.dos.pa.gov/search/business",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://businesssearch.ohiosos.gov/",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://ecorp.sos.ga.gov/BusinessSearch",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://www.sosnc.gov/online_services/search/",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://mibusinessregistry.lara.state.mi.us/search/business",
+      "category": "State Business Entity Registries (formation / changes)"
+    },
+    {
+      "url": "https://www.nass.org/business-services/ucc-filings",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://bizfileonline.sos.ca.gov/search/ucc",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/ucc/index.shtml",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://floridaucc.com/",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://dos.ny.gov/uniform-commercial-code-division",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://appext20.dos.ny.gov/pls/ucc_public/web_ucs1.search_main",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://apps.ilsos.gov/uccsearch/",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://ucc.ohiosos.gov/",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://www.michigan.gov/lara/bureau-list/cscl/cscl/ucc",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://file.dos.pa.gov/",
+      "category": "UCC / Secured Transactions (refi & collateral signals)"
+    },
+    {
+      "url": "https://opendata.cityofnewyork.us/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://data.cityofnewyork.us/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://data.cityofchicago.org/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://data.lacity.org/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://data.sfgov.org/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://data.seattle.gov/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://data.boston.gov/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://data.austintexas.gov/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://www.dallasopendata.com/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://gis-mdc.opendata.arcgis.com/",
+      "category": "Permits / Licenses Open Data (expansion intent)"
+    },
+    {
+      "url": "https://developer.adzuna.com/overview",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://developer.usajobs.gov/",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://developer.usajobs.gov/API-Reference",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://services.onetcenter.org/",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://www.onetonline.org/help/onet/webservices",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://cloud.google.com/talent-solution/job-search/docs",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://developer.linkedin.com/product-catalog",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://www.ziprecruiter.com/partner/documentation/",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://docs.lightcast.dev/apis/",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://esco.ec.europa.eu/en/use-esco/use-esco-services-api/esco-web-service-api",
+      "category": "Jobs / Hiring Signals (growth velocity)"
+    },
+    {
+      "url": "https://www.prnewswire.com/rss/",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.businesswire.com/help/feed-options",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.pr.com/rss-feeds",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.sec.gov/news/pressreleases",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.sba.gov/blogs",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.census.gov/newsroom/press-releases.html",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.bea.gov/newsroom",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.bls.gov/news.release/",
+      "category": "News / Press Release Feeds (trigger detection)"
+    },
+    {
+      "url": "https://www.sec.gov/edgar/search-and-access",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://www.gleif.org/en/lei-data/access-and-use-lei-data",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://www.gleif.org/en/lei-data/gleif-api/access-the-api",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://www.opencorporates.com/",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://opencorporates.com/info/api",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://developer.crunchbase.com/",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://www.dnb.com/",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://www.fdic.gov/analysis/",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://www.fdic.gov/resources/bankers/call-reports/",
+      "category": "Company Data & Verification (licensed / public)"
+    },
+    {
+      "url": "https://www.uschamber.com/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://www.score.org/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://restaurant.org/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://www.agc.org/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://www.nahb.org/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://www.trucking.org/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://www.franchise.org/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://nrf.com/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://www.nacs.org/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    },
+    {
+      "url": "https://www.ada.org/",
+      "category": "Trade Groups / Small Biz Support Networks (partnership channels)"
+    }
+  ],
+  "seed_keywords": [
+    {
+      "keyword": "working capital",
+      "category": "Capital Intent",
+      "intent_score": 5
+    },
+    {
+      "keyword": "business line of credit",
+      "category": "Capital Intent",
+      "intent_score": 5
+    },
+    {
+      "keyword": "equipment financing",
+      "category": "Capital Intent",
+      "intent_score": 5
+    },
+    {
+      "keyword": "SBA 7(a)",
+      "category": "Capital Intent",
+      "intent_score": 5
+    },
+    {
+      "keyword": "SBA 504",
+      "category": "Capital Intent",
+      "intent_score": 4
+    },
+    {
+      "keyword": "SBA microloan",
+      "category": "Capital Intent",
+      "intent_score": 4
+    },
+    {
+      "keyword": "term loan",
+      "category": "Capital Intent",
+      "intent_score": 4
+    },
+    {
+      "keyword": "bridge loan",
+      "category": "Capital Intent",
+      "intent_score": 4
+    },
+    {
+      "keyword": "invoice factoring",
+      "category": "Capital Intent",
+      "intent_score": 5
+    },
+    {
+      "keyword": "accounts receivable financing",
+      "category": "Capital Intent",
+      "intent_score": 5
+    },
+    {
+      "keyword": "purchase order financing",
+      "category": "Capital Intent",
+      "intent_score": 5
+    },
+    {
+      "keyword": "merchant cash advance refinance",
+      "category": "Capital Intent",
+      "intent_score": 4
+    },
+    {
+      "keyword": "debt consolidation",
+      "category": "Capital Intent",
+      "intent_score": 4
+    },
+    {
+      "keyword": "refinance business debt",
+      "category": "Capital Intent",
+      "intent_score": 5
+    },
+    {
+      "keyword": "working capital fast",
+      "category": "Capital Intent",
+      "intent_score": 4
+    },
+    {
+      "keyword": "cash advance alternative",
+      "category": "Capital Intent",
+      "intent_score": 3
+    },
+    {
+      "keyword": "business loan rates",
+      "category": "Capital Intent",
+      "intent_score": 3
+    },
+    {
+      "keyword": "credit line application",
+      "category": "Capital Intent",
+      "intent_score": 4
+    },
+    {
+      "keyword": "funding partner",
+      "category": "Capital Intent",
+      "intent_score": 3
+    },
+    {
+      "keyword": "capital injection",
+      "category": "Capital Intent",
+      "intent_score": 3
+    },
+    {
+      "keyword": "grand opening",
+      "category": "Expansion / Growth",
+      "intent_score": 5
+    },
+    {
+      "keyword": "new location",
+      "category": "Expansion / Growth",
+      "intent_score": 5
+    },
+    {
+      "keyword": "second location",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "expanding operations",
+      "category": "Expansion / Growth",
+      "intent_score": 5
+    },
+    {
+      "keyword": "facility expansion",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "warehouse expansion",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "tenant improvement",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "build-out",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "renovation project",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "remodel",
+      "category": "Expansion / Growth",
+      "intent_score": 3
+    },
+    {
+      "keyword": "lease signed",
+      "category": "Expansion / Growth",
+      "intent_score": 5
+    },
+    {
+      "keyword": "commercial lease",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "franchise opening",
+      "category": "Expansion / Growth",
+      "intent_score": 5
+    },
+    {
+      "keyword": "franchise financing",
+      "category": "Expansion / Growth",
+      "intent_score": 5
+    },
+    {
+      "keyword": "acquisition financing",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "buying a business",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "merger and acquisition",
+      "category": "Expansion / Growth",
+      "intent_score": 3
+    },
+    {
+      "keyword": "capex",
+      "category": "Expansion / Growth",
+      "intent_score": 3
+    },
+    {
+      "keyword": "capital improvement",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "expansion plans",
+      "category": "Expansion / Growth",
+      "intent_score": 4
+    },
+    {
+      "keyword": "cash flow gap",
+      "category": "Cash-Flow Stress",
+      "intent_score": 5
+    },
+    {
+      "keyword": "delayed payments",
+      "category": "Cash-Flow Stress",
+      "intent_score": 5
+    },
+    {
+      "keyword": "net 30",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "net 60",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "net 90",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "payroll shortfall",
+      "category": "Cash-Flow Stress",
+      "intent_score": 5
+    },
+    {
+      "keyword": "seasonal slowdown",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "inventory squeeze",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "supplier price increase",
+      "category": "Cash-Flow Stress",
+      "intent_score": 3
+    },
+    {
+      "keyword": "cost overrun",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "emergency funding",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "temporary closure",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "business turnaround",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "under new management",
+      "category": "Cash-Flow Stress",
+      "intent_score": 3
+    },
+    {
+      "keyword": "late fees",
+      "category": "Cash-Flow Stress",
+      "intent_score": 3
+    },
+    {
+      "keyword": "collections notice",
+      "category": "Cash-Flow Stress",
+      "intent_score": 3
+    },
+    {
+      "keyword": "liquidity crunch",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "restructure debt",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "short-term liquidity",
+      "category": "Cash-Flow Stress",
+      "intent_score": 4
+    },
+    {
+      "keyword": "cash flow management",
+      "category": "Cash-Flow Stress",
+      "intent_score": 3
+    },
+    {
+      "keyword": "government contract awarded",
+      "category": "Contracts / Invoices",
+      "intent_score": 5
+    },
+    {
+      "keyword": "contract win",
+      "category": "Contracts / Invoices",
+      "intent_score": 5
+    },
+    {
+      "keyword": "RFP awarded",
+      "category": "Contracts / Invoices",
+      "intent_score": 4
+    },
+    {
+      "keyword": "purchase order",
+      "category": "Contracts / Invoices",
+      "intent_score": 4
+    },
+    {
+      "keyword": "mobilization costs",
+      "category": "Contracts / Invoices",
+      "intent_score": 4
+    },
+    {
+      "keyword": "progress billing",
+      "category": "Contracts / Invoices",
+      "intent_score": 4
+    },
+    {
+      "keyword": "retainage",
+      "category": "Contracts / Invoices",
+      "intent_score": 4
+    },
+    {
+      "keyword": "draw schedule",
+      "category": "Contracts / Invoices",
+      "intent_score": 3
+    },
+    {
+      "keyword": "bonding capacity",
+      "category": "Contracts / Invoices",
+      "intent_score": 3
+    },
+    {
+      "keyword": "performance bond",
+      "category": "Contracts / Invoices",
+      "intent_score": 3
+    },
+    {
+      "keyword": "subcontractor payment",
+      "category": "Contracts / Invoices",
+      "intent_score": 4
+    },
+    {
+      "keyword": "invoice delay",
+      "category": "Contracts / Invoices",
+      "intent_score": 5
+    },
+    {
+      "keyword": "AR aging",
+      "category": "Contracts / Invoices",
+      "intent_score": 4
+    },
+    {
+      "keyword": "working capital for contract",
+      "category": "Contracts / Invoices",
+      "intent_score": 5
+    },
+    {
+      "keyword": "bridge financing for contract",
+      "category": "Contracts / Invoices",
+      "intent_score": 5
+    },
+    {
+      "keyword": "tax payment plan",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 4
+    },
+    {
+      "keyword": "sales tax due",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 3
+    },
+    {
+      "keyword": "IRS installment agreement",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 3
+    },
+    {
+      "keyword": "quarterly taxes",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 3
+    },
+    {
+      "keyword": "business license renewal",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 2
+    },
+    {
+      "keyword": "permit issued",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 4
+    },
+    {
+      "keyword": "building permit",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 5
+    },
+    {
+      "keyword": "certificate of occupancy",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 4
+    },
+    {
+      "keyword": "UCC filing",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 4
+    },
+    {
+      "keyword": "lien notice",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 4
+    },
+    {
+      "keyword": "mechanics lien",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 4
+    },
+    {
+      "keyword": "judgment filed",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 3
+    },
+    {
+      "keyword": "bankruptcy filing",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 3
+    },
+    {
+      "keyword": "restructuring plan",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 3
+    },
+    {
+      "keyword": "debt settlement",
+      "category": "Compliance / Tax / Legal",
+      "intent_score": 3
+    },
+    {
+      "keyword": "fleet replacement",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    },
+    {
+      "keyword": "truck financing",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    },
+    {
+      "keyword": "restaurant renovation",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    },
+    {
+      "keyword": "kitchen equipment",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    },
+    {
+      "keyword": "medical equipment",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    },
+    {
+      "keyword": "dental practice loan",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    },
+    {
+      "keyword": "construction equipment",
+      "category": "Industry-Specific",
+      "intent_score": 5
+    },
+    {
+      "keyword": "HVAC equipment",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    },
+    {
+      "keyword": "retail inventory",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    },
+    {
+      "keyword": "ecommerce inventory",
+      "category": "Industry-Specific",
+      "intent_score": 4
+    }
+  ],
+  "distressed_property_sources": [
+    {
+      "source": "Municipal Tax Lien Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Probate Court Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "County Court Foreclosure Records",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Bankruptcy Court Filings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Estate Sale Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Zillow Foreclosure Filter",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Public Records on Tax Delinquent Properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Trustee Sale Websites",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Eviction Court Filings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "RealtyTrac",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "HUD Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Real Estate Investment Clubs",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Landlord-Tenant Disputes",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Short Sale Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Fannie Mae & Freddie Mac",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local Housing Authority Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Divorce Court Property Records",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "County Clerk Property Documents",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "For Sale by Owner (FSBO) Distressed Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Bank REO Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Source Name",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Property Tax Auction Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Auction.com",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Foreclosure.com",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Bank of America REO",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Wells Fargo REO",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "RealtyBid",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local County Treasurer Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "HUD Homestore",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "TaxAssessor Websites",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Property Auctions in Probate",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Online Sheriff Sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Fannie Mae HomePath",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Freddie Mac HomeSteps",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "REO Depot",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "HomeSteps by Freddie Mac",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "City or County Tax Auction Calendars",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Public Surplus Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court Auction Listings (State Websites)",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Vacant Property Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Motivated Seller Listings on Craigslist",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Source Name",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "City or County Tax Assessor Websites",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Property Auctions on eBay",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Online Government Surplus Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "AuctionZip",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Bankruptcy Filing Notices",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Vacant Property Registration Systems",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Distressed Property Brokers",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Foreclosure Notice Mailing Lists",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Public Land Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Sheriff's Foreclosure Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court-Ordered Property Sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Real Estate Owned (REO) Websites",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Distressed Property Wholesale Lists",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Housing Finance Agency Foreclosures",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Lender-Owned Property Websites",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Legal Notices in Newspapers",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Government Foreclosure Programs",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Real Estate Investment Trusts (REITs) Liquidation Sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "County Bankruptcy Notices",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Distressed Asset Sales Platforms",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Source Name",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "County Land Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Deed-in-Lieu of Foreclosure Programs",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Lender Property Liquidation Sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Municipal Foreclosure Sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Real Estate Owned (REO) Listings from Credit Unions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Distressed Property Investment Trusts (DPITs)",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "RealtyTrac Tax Lien Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Fannie Mae Foreclosure Sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Freddie Mac Foreclosure Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "AuctionHouse",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "County Treasurer Foreclosure Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court-Ordered Property Sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Divorce Property Liquidations",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Probate Property Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Bank-Owned Property Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court-Ordered Tax Lien Property Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Bankrupt Business Property Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Eviction Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Lien Foreclosure Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Pre-Foreclosure Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Source Name",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "State Tax Lien Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Municipal Property Tax Foreclosures",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Private Foreclosure Sale Sites",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Government Foreclosure Auctions (Various Agencies)",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Real Estate Investment Platforms",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Commercial Property Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Distressed Asset Sales by Insurance Companies",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Land Bank Authority Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Owner Financing Foreclosures",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Financial Institution Foreclosure Listings",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local Sheriff's Foreclosure Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Probate Court Property Liquidations",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "RealtyTrac Tax Lien Auctions",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court-Ordered Sales (Eviction or Foreclosure)",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local government auction sites for tax lien properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court filings for probate property sales.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "County court websites with foreclosure databases.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Bankruptcy court websites where property information is disclosed.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Websites focused on selling inherited properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Zillow\u2019s foreclosure section with advanced filters for distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Scraping county tax websites for delinquent tax notices.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Auctions held by trustees (e.g.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local eviction court databases that sometimes include property info.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "A platform focused on distressed properties and foreclosures.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Properties from the U.S. Department of Housing and Urban Development (HUD).",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Niche real estate investing sites offering leads on distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Landlord court records related to rental evictions.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Websites that track properties in short-sale processes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Their REO (Real Estate Owned) properties for sale.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Housing authorities sometimes auction properties at risk of foreclosure.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Divorce settlements and property division court cases that might involve property sales.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "County clerk\u2019s office property transaction records",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "FSBO websites with discounted properties from motivated sellers.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Specific banks\u2019 websites for properties they have repossessed.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Source Description",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Websites that list properties for sale due to unpaid taxes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "A platform for buying distressed properties via online auctions.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "A foreclosure listing site that provides access to distressed property listings.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Bank of America's Real Estate Owned properties for sale.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Properties repossessed by Wells Fargo and listed for sale.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Online auction platform for distressed properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Auctions held by county treasurers for properties with delinquent taxes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "The U.S. Department of Housing and Urban Development's (HUD) site for auctioning distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "County or state websites listing properties with unpaid taxes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Online property auctions related to estate and probate sales.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Sheriff\u2019s office websites offering foreclosure properties for public auction.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Fannie Mae's site for selling REO properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Freddie Mac's REO program",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "A marketplace for REO (real estate owned) properties from banks",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "The Freddie Mac program for selling REO properties across the country.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Various local municipalities post auction calendars for tax lien properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Online auction site for government surplus sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "State websites that list court-ordered property sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Listings of vacant properties that could be distressed and available for purchase.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Classified ads from distressed sellers seeking quick sales.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Source Description",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local websites where unpaid taxes may lead to property foreclosure.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Online property auctions for distressed or bank-owned properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Government sites for surplus real estate sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "An online auction site for distressed properties and foreclosure sales.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court filings that may contain properties tied to bankruptcy cases.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local governments track vacant properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Real estate brokers specializing in distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Companies that compile and sell lists of properties in foreclosure.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "State or federal auctions for government-owned distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local sheriff\u2019s offices conducting foreclosure auctions.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Legal sales of properties ordered by the courts",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Banks\u2019 and lenders' websites listing REO properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Wholesale distributors that deal with distressed properties and off-market deals.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Foreclosures handled by state or regional housing finance agencies.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Lenders often list their foreclosed properties for sale.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Legal classifieds in local newspapers with foreclosure and tax lien sales.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Government programs that auction foreclosed properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "REITs often liquidate distressed properties at auction.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local bankruptcy filings for real estate involved in Chapter 7 or 13 cases.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Online platforms dedicated to distressed asset sales",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Source Description",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local government land auctions where distressed properties are sold.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Properties sold directly by lenders in exchange for loan cancellation.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Financial institutions liquidating distressed real estate holdings.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local government property auctions from foreclosures due to unpaid municipal taxes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Credit unions sell their foreclosed properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Investment trusts that specialize in distressed properties and foreclosure sales.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Tax lien auctions held on RealtyTrac featuring distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Fannie Mae auction site for REO (Real Estate Owned) properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Freddie Mac auctions off foreclosed properties via their website.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "An online platform dedicated to auctioning distressed properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Auctions of foreclosed properties held by county treasurers for unpaid property taxes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court-mandated property sales often include distressed homes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Court-mandated property sales from divorce proceedings.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Publicly listed probate property auctions where distressed homes are sold.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Auctions of bank-owned properties including foreclosures and REOs.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Auctions of properties with tax liens held by the court.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Distressed commercial properties from bankrupt businesses often sold at auction.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Properties that go to auction after eviction proceedings.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Properties being auctioned due to unpaid liens placed by contractors",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Real estate websites that list properties at risk of foreclosure before they go to auction.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Source Description",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "State-run auctions for tax lien properties that are often distressed.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local government websites listing properties facing foreclosure due to unpaid taxes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Private real estate platforms hosting foreclosure property auctions.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "U.S. government and agency websites auctioning distressed properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Platforms where distressed properties are listed for sale to investors (e.g.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Websites listing distressed commercial properties for sale through auctions.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Insurance companies selling distressed properties due to claims",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Land banks focused on acquiring and selling distressed",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Websites listing distressed properties with owner financing options for buyers.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Banks and credit unions listing foreclosed properties",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Local sheriff's offices hosting auctions for properties involved in foreclosure proceedings.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Properties undergoing probate that are often distressed or abandoned.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Website that aggregates tax lien foreclosure auctions for distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Lega",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Auction.com) for distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "often containing distressed property information.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "including foreclosures and REOs.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "including distressed homes.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "listing properties for sale after foreclosure.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "lenders",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "including distressed property.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "including foreclosures and distressed sales.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "including distressed properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "which are often distressed.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "often distressed.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "often distressed.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "including HUD and VA properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "including property.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "often at discounted prices.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "including foreclosures.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "utilities",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "such as HUD",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "Auction.com).",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "foreclosures",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "abandoned properties.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "typically discounted.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "and government agencies.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "etc.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "or defaulted insurance policies.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    },
+    {
+      "source": "etc.",
+      "type": "keyword",
+      "sheet": "Sheet1"
+    }
+  ],
+  "indicators": [
+    {
+      "indicator": "Identity & Classification",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Identity & Classification",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Identity & Classification",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Dates & Timeline",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Dates & Timeline",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Financials",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Financials",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Competition & Compliance",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Competition & Compliance",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Geography",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Scoring & Workflow",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Scoring & Workflow",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Scoring & Workflow",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Documents & Plans",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Documents & Plans",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Parties & Contacts",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Parties & Contacts",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Building_Type",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Delivery_Method",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Procurement_Type",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Questions_Due",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Addenda_Cutoff",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Budget_Source",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Alt_Funding",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Planholders_Count",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Set\u2011Aside",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Drive_Time_mins",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Fit_Score",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Risk_Score",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Competition_Score",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Has_Plans",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "OCR_Status",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Procurement_Officer_Email",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Planroom_Link",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "school|medical|office|retail|warehouse|multifamily",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "DBB|CMAR|Design\u2011Build",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "ITB|IFB|RFP|RFQ",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Date",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Date",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "owner_report|bond_issue|capital_plan",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "grant|bond|private_equity",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Number",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "DBE|MBE|SBE|None",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Number",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "0\u2011100",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "0\u2011100",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "0\u2011100",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Y|N",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "pending|done|failed",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Email",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "URL",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Helps filter by asset class you dominate",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Different risk & margin profiles per method",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Shows how competitive/openness of process",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Missing this often means few bidders \u2192 less competition",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Tells you when last changes hit and scope can firm up",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Quality of budget signal matters",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Projects with alternate funding often move faster",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Lower count = less competition",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Subcontractor friendly niches; filters for minorities",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Time\u2011cost to your base \u2013 important for logistics",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Your internal ranking of how right the job is for you",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Your internal ranking of potential for overruns or chaos",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Combines planholder count + visible prequal requirements",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Only invest time if you can get documents",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Track your document\u2011processing progress",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Direct contact = competitive advantage",
+      "sheet": "Sheet1"
+    },
+    {
+      "indicator": "Access to planholders list = intel edge",
+      "sheet": "Sheet1"
+    }
+  ],
+  "florida_targets": {
+    "counties": [],
+    "zip_codes": []
+  },
+  "scraper_configurations": []
+}

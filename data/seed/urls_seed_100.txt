@@ -1,0 +1,120 @@
+## Federal SMB & Business Data (APIs / catalogs)
+01. https://data.sba.gov/
+02. https://data.sba.gov/en/dataset
+03. https://catalog.data.gov/organization/u-s-small-business-administration
+04. https://api.census.gov/data.html
+05. https://www.census.gov/data/developers/data-sets.html
+06. https://api.census.gov/data/timeseries/eits/bfs.html
+07. https://www.census.gov/programs-surveys/cbp/data.html
+08. https://www.census.gov/programs-surveys/abs/data.html
+09. https://www.census.gov/programs-surveys/susb/data.html
+10. https://www.sba.gov/about-sba/sba-performance/open-government/digital-sba/open-data
+
+## Macro & Rates Data (economy / credit cycle)
+01. https://fred.stlouisfed.org/
+02. https://api.stlouisfed.org/
+03. https://fred.stlouisfed.org/docs/api/fred/
+04. https://www.bea.gov/data
+05. https://apps.bea.gov/api/
+06. https://www.bls.gov/
+07. https://www.bls.gov/developers/
+08. https://api.bls.gov/publicAPI/v2/timeseries/data/
+09. https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview?data=yield
+10. https://www.federalreserve.gov/releases/
+
+## Federal Procurement / Awards (contract triggers)
+01. https://sam.gov/
+02. https://open.gsa.gov/api/sam/
+03. https://api.sam.gov/
+04. https://www.usaspending.gov/
+05. https://api.usaspending.gov/
+06. https://api.usaspending.gov/docs/endpoints
+07. https://www.fpds.gov/
+08. https://www.federalregister.gov/developers/api/v1
+09. https://www.sbir.gov/
+10. https://www.grants.gov/
+
+## State Business Entity Registries (formation / changes)
+01. https://bizfileonline.sos.ca.gov/search/business
+02. https://direct.sos.state.tx.us/acct/acct-login.asp
+03. http://search.sunbiz.org/Inquiry/CorporationSearch/ByName
+04. https://dos.ny.gov/corporation-business-entity-search
+05. https://apps.ilsos.gov/corporatellc/
+06. https://file.dos.pa.gov/search/business
+07. https://businesssearch.ohiosos.gov/
+08. https://ecorp.sos.ga.gov/BusinessSearch
+09. https://www.sosnc.gov/online_services/search/
+10. https://mibusinessregistry.lara.state.mi.us/search/business
+
+## UCC / Secured Transactions (refi & collateral signals)
+01. https://www.nass.org/business-services/ucc-filings
+02. https://bizfileonline.sos.ca.gov/search/ucc
+03. https://www.sos.state.tx.us/ucc/index.shtml
+04. https://floridaucc.com/
+05. https://dos.ny.gov/uniform-commercial-code-division
+06. https://appext20.dos.ny.gov/pls/ucc_public/web_ucs1.search_main
+07. https://apps.ilsos.gov/uccsearch/
+08. https://ucc.ohiosos.gov/
+09. https://www.michigan.gov/lara/bureau-list/cscl/cscl/ucc
+10. https://file.dos.pa.gov/
+
+## Permits / Licenses Open Data (expansion intent)
+01. https://opendata.cityofnewyork.us/
+02. https://data.cityofnewyork.us/
+03. https://data.cityofchicago.org/
+04. https://data.lacity.org/
+05. https://data.sfgov.org/
+06. https://data.seattle.gov/
+07. https://data.boston.gov/
+08. https://data.austintexas.gov/
+09. https://www.dallasopendata.com/
+10. https://gis-mdc.opendata.arcgis.com/
+
+## Jobs / Hiring Signals (growth velocity)
+01. https://developer.adzuna.com/overview
+02. https://developer.usajobs.gov/
+03. https://developer.usajobs.gov/API-Reference
+04. https://services.onetcenter.org/
+05. https://www.onetonline.org/help/onet/webservices
+06. https://cloud.google.com/talent-solution/job-search/docs
+07. https://developer.linkedin.com/product-catalog
+08. https://www.ziprecruiter.com/partner/documentation/
+09. https://docs.lightcast.dev/apis/
+10. https://esco.ec.europa.eu/en/use-esco/use-esco-services-api/esco-web-service-api
+
+## News / Press Release Feeds (trigger detection)
+01. https://www.prnewswire.com/rss/
+02. https://www.businesswire.com/help/feed-options
+03. https://www.pr.com/rss-feeds
+04. https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en
+05. https://www.sec.gov/news/pressreleases
+06. https://www.federalreserve.gov/newsevents/pressreleases.htm
+07. https://www.sba.gov/blogs
+08. https://www.census.gov/newsroom/press-releases.html
+09. https://www.bea.gov/newsroom
+10. https://www.bls.gov/news.release/
+
+## Company Data & Verification (licensed / public)
+01. https://www.sec.gov/edgar/search-and-access
+02. https://data.sec.gov/api/xbrl/companyfacts/
+03. https://www.gleif.org/en/lei-data/access-and-use-lei-data
+04. https://www.gleif.org/en/lei-data/gleif-api/access-the-api
+05. https://www.opencorporates.com/
+06. https://opencorporates.com/info/api
+07. https://developer.crunchbase.com/
+08. https://www.dnb.com/
+09. https://www.fdic.gov/analysis/
+10. https://www.fdic.gov/resources/bankers/call-reports/
+
+## Trade Groups / Small Biz Support Networks (partnership channels)
+01. https://www.uschamber.com/
+02. https://www.score.org/
+03. https://restaurant.org/
+04. https://www.agc.org/
+05. https://www.nahb.org/
+06. https://www.trucking.org/
+07. https://www.franchise.org/
+08. https://nrf.com/
+09. https://www.nacs.org/
+10. https://www.ada.org/
+

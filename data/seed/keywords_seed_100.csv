@@ -1,0 +1,101 @@
+category,keyword,intent_score_1_5
+Capital Intent,working capital,5
+Capital Intent,business line of credit,5
+Capital Intent,equipment financing,5
+Capital Intent,SBA 7(a),5
+Capital Intent,SBA 504,4
+Capital Intent,SBA microloan,4
+Capital Intent,term loan,4
+Capital Intent,bridge loan,4
+Capital Intent,invoice factoring,5
+Capital Intent,accounts receivable financing,5
+Capital Intent,purchase order financing,5
+Capital Intent,merchant cash advance refinance,4
+Capital Intent,debt consolidation,4
+Capital Intent,refinance business debt,5
+Capital Intent,working capital fast,4
+Capital Intent,cash advance alternative,3
+Capital Intent,business loan rates,3
+Capital Intent,credit line application,4
+Capital Intent,funding partner,3
+Capital Intent,capital injection,3
+Expansion / Growth,grand opening,5
+Expansion / Growth,new location,5
+Expansion / Growth,second location,4
+Expansion / Growth,expanding operations,5
+Expansion / Growth,facility expansion,4
+Expansion / Growth,warehouse expansion,4
+Expansion / Growth,tenant improvement,4
+Expansion / Growth,build-out,4
+Expansion / Growth,renovation project,4
+Expansion / Growth,remodel,3
+Expansion / Growth,lease signed,5
+Expansion / Growth,commercial lease,4
+Expansion / Growth,franchise opening,5
+Expansion / Growth,franchise financing,5
+Expansion / Growth,acquisition financing,4
+Expansion / Growth,buying a business,4
+Expansion / Growth,merger and acquisition,3
+Expansion / Growth,capex,3
+Expansion / Growth,capital improvement,4
+Expansion / Growth,expansion plans,4
+Cash-Flow Stress,cash flow gap,5
+Cash-Flow Stress,delayed payments,5
+Cash-Flow Stress,net 30,4
+Cash-Flow Stress,net 60,4
+Cash-Flow Stress,net 90,4
+Cash-Flow Stress,payroll shortfall,5
+Cash-Flow Stress,seasonal slowdown,4
+Cash-Flow Stress,inventory squeeze,4
+Cash-Flow Stress,supplier price increase,3
+Cash-Flow Stress,cost overrun,4
+Cash-Flow Stress,emergency funding,4
+Cash-Flow Stress,temporary closure,4
+Cash-Flow Stress,business turnaround,4
+Cash-Flow Stress,under new management,3
+Cash-Flow Stress,late fees,3
+Cash-Flow Stress,collections notice,3
+Cash-Flow Stress,liquidity crunch,4
+Cash-Flow Stress,restructure debt,4
+Cash-Flow Stress,short-term liquidity,4
+Cash-Flow Stress,cash flow management,3
+Contracts / Invoices,government contract awarded,5
+Contracts / Invoices,contract win,5
+Contracts / Invoices,RFP awarded,4
+Contracts / Invoices,purchase order,4
+Contracts / Invoices,mobilization costs,4
+Contracts / Invoices,progress billing,4
+Contracts / Invoices,retainage,4
+Contracts / Invoices,draw schedule,3
+Contracts / Invoices,bonding capacity,3
+Contracts / Invoices,performance bond,3
+Contracts / Invoices,subcontractor payment,4
+Contracts / Invoices,invoice delay,5
+Contracts / Invoices,AR aging,4
+Contracts / Invoices,working capital for contract,5
+Contracts / Invoices,bridge financing for contract,5
+Compliance / Tax / Legal,tax payment plan,4
+Compliance / Tax / Legal,sales tax due,3
+Compliance / Tax / Legal,IRS installment agreement,3
+Compliance / Tax / Legal,quarterly taxes,3
+Compliance / Tax / Legal,business license renewal,2
+Compliance / Tax / Legal,permit issued,4
+Compliance / Tax / Legal,building permit,5
+Compliance / Tax / Legal,certificate of occupancy,4
+Compliance / Tax / Legal,UCC filing,4
+Compliance / Tax / Legal,lien notice,4
+Compliance / Tax / Legal,mechanics lien,4
+Compliance / Tax / Legal,judgment filed,3
+Compliance / Tax / Legal,bankruptcy filing,3
+Compliance / Tax / Legal,restructuring plan,3
+Compliance / Tax / Legal,debt settlement,3
+Industry-Specific,fleet replacement,4
+Industry-Specific,truck financing,4
+Industry-Specific,restaurant renovation,4
+Industry-Specific,kitchen equipment,4
+Industry-Specific,medical equipment,4
+Industry-Specific,dental practice loan,4
+Industry-Specific,construction equipment,5
+Industry-Specific,HVAC equipment,4
+Industry-Specific,retail inventory,4
+Industry-Specific,ecommerce inventory,4
